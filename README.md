@@ -2,8 +2,7 @@
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmZtZ3UydTBzMDR6djRuYTNmMXd6bWc1NzRwMW14bHNyMWNpMDB1ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coxQHKASG60HrHtvkt/giphy.webp" alt="Logo du Projet">
 </p>
-## Idée Générale
-Le projet vise à créer une application de gestion d'inventaire simple et conviviale. Cette application permettra aux utilisateurs d'ajouter, de supprimer, de mettre à jour et d'afficher les articles de l'inventaire. De plus, elle pourra générer un rapport total de l'inventaire, offrant ainsi une vue d'ensemble claire et précise de tous les articles stockés.
+
 
 ## Objectifs du Projet
 - **Faciliter la gestion des articles :** Ajout, suppression, mise à jour et affichage des articles de l'inventaire.
