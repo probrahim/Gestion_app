@@ -8,7 +8,115 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <style type="text/css">
-    	
+    	        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: url('https://www.bdbpitmans.com/wp-content/uploads/Business-man-using-calculator-with-computer-laptop-budget-and-loan-paper-in-office-1400x900.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Poppins', sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .navbar .login-btn {
+            background-color: #fff;
+            color: #080710;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .navbar .login-btn:hover {
+            background-color: #f0f0f0;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            color: #fff;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            padding-top: 100px;
+            padding: 50px;
+            margin-top: 50px;
+
+        }
+        .content h1 {
+            font-size: 48px;
+            font-weight: 600;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .content p {
+            font-size: 24px;
+            margin-top: 20px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .content .welcome-btn {
+            margin-top: 50px;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: 600;
+            background-color: #fff;
+            color: #080710;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .content .welcome-btn:hover {
+            background-color: #f0f0f0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .footer .social-icons a:hover {
+            color: #ddd;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
     </style>
 </head>
 
